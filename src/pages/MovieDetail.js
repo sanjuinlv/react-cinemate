@@ -18,7 +18,7 @@ export function MovieDetail() {
       setMovie(data);
     }
     fetchMovieDetails();
-  }, []);
+  }, [params.id]);
   
   useTitle(movie.title);
 
